@@ -10,6 +10,7 @@ import java.util.Properties;
 
 public class kafkaProducerService implements AutoCloseable {
 
+    // this is kafka producer service class which is used to send messages to kafka topic
     private final KafkaProducer<String, String> producer;
 
     public kafkaProducerService() {
